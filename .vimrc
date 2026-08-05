@@ -31,8 +31,8 @@ call plug#begin('$HOME/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
-"Plug 'morhetz/gruvbox'
 Plug 'nanotech/jellybeans.vim'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 "MAPPINGS:
