@@ -37,7 +37,7 @@ bindkey -M vicmd v edit-command-line
 bindkey '^L' clear-screen
 
 # PROMPT
-PROMPT='%F{green}%n@%m %1~ %# %f'
+PROMPT='%F{#00d600}%n@%m %~ %# %f'
 #eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh.toml)"
 #eval "$(starship init zsh)"
 
@@ -55,6 +55,3 @@ alias pip='pip3'
 alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias cfz='vim ~/.zshrc'
 alias cfv='vim ~/.vimrc'
-
-# Media
-alias mpva="mpv --no-audio-display --no-resume-playback"

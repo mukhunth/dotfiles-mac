@@ -1,8 +1,8 @@
 add_newline=false
 
 [character]
-success_symbol="[%](fg:#5fff5f)"
-error_symbol="[%](fg:#5fff5f)"
+success_symbol="[%](fg:#00d600)"
+error_symbol="[%](fg:#00d600)"
 
 [directory]
 style="bold fg:#006ed0"
