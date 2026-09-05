@@ -39,7 +39,7 @@ bindkey '^L' clear-screen
 # PROMPT
 PROMPT='%F{#00d600}%n@%m %~ %# %f'
 #eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh.toml)"
-#eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 
 # ALIASES
 
@@ -55,3 +55,5 @@ alias pip='pip3'
 alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias cfz='vim ~/.zshrc'
 alias cfv='vim ~/.vimrc'
+
+alias gac='git add . && git commit'

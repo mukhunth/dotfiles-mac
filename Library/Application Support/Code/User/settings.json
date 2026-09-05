@@ -5,13 +5,40 @@
 
     "terminal.integrated.cursorStyle": "block",
     "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "Inconsolata Nerd Font",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
     "terminal.integrated.minimumContrastRatio": 1,
 
     "workbench.colorCustomizations": {
         "terminal.background": "#000000",
         "terminal.foreground": "#d4d4d4",
-        "terminalCursor.foreground": "#00d600"        
+        "terminalCursor.foreground": "#00d600",
+        // "terminal.background":"#151515",
+        // "terminal.foreground":"#D0D0D0",
+        // "terminalCursor.background":"#D0D0D0",
+        // "terminalCursor.foreground":"#D0D0D0",
+        "terminal.ansiBlack":"#151515",
+        "terminal.ansiBlue":"#6A9FB5",
+        "terminal.ansiBrightBlack":"#505050",
+        "terminal.ansiBrightBlue":"#6A9FB5",
+        "terminal.ansiBrightCyan":"#75B5AA",
+        "terminal.ansiBrightGreen":"#90A959",
+        "terminal.ansiBrightMagenta":"#AA759F",
+        "terminal.ansiBrightRed":"#AC4142",
+        "terminal.ansiBrightWhite":"#F5F5F5",
+        "terminal.ansiBrightYellow":"#F4BF75",
+        "terminal.ansiCyan":"#75B5AA",
+        "terminal.ansiGreen":"#90A959",
+        "terminal.ansiMagenta":"#AA759F",
+        "terminal.ansiRed":"#AC4142",
+        "terminal.ansiWhite":"#D0D0D0",
+        "terminal.ansiYellow":"#F4BF75"        
+    },
+    "http.systemCertificatesNode": true,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+    "remote.portsAttributes": {
+        "4321": {
+            "protocol": "http"
+        }
     },
 }

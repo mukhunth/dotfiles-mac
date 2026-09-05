@@ -17,6 +17,9 @@ python_binary="python3"
 
 #-------------Disabled modules-------------
 
+[package]
+disabled=true
+
 [aws]
 disabled=true
 
